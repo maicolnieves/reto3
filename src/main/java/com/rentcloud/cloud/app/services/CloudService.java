@@ -78,6 +78,9 @@ public class CloudService {
                 if (cloud.getBrand()!=null){
                     existCloud.get().setBrand(cloud.getBrand());
                 }
+                if (cloud.getYear()!=null){
+                    existCloud.get().setYear(cloud.getYear());
+                }
                 if (cloud.getCategory()!=null){
                     existCloud.get().setCategory(cloud.getCategory());
                 }
