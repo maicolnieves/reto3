@@ -78,6 +78,9 @@ public class ClientService {
                 if (client.getName()!=null){
                     existClient.get().setName(client.getName());
                 }
+                if (client.getAge()!=null){
+                    existClient.get().setAge(client.getAge());
+                }
                 if (client.getMessages()!=null){
                     existClient.get().setMessages(client.getMessages());
                 }
